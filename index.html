@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-0" id="mainNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#page-top">
-                    <img src="https://fra.staycreative.it/wp-content/uploads/2021/11/Logo1.png" alt="" height="60" width="60">
+                    <img src="/assets/img/logo.png" alt="" height="60" width="60">
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -40,10 +40,9 @@
         <header class="masthead">
 
             <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
-            <div class="overlay h-100">
-                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                    <source src="https://fra.staycreative.it/wp-content/uploads/2021/11/video.mp4" type="video/mp4">
-                  </video>
+
+            <div class="overlay h-100 embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item h-100" width="100%" height="" src="https://www.youtube.com/embed/Ny8lhG7z2M0?controls=0" title="YouTube video player" frameborder="100%" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           
         </header>
@@ -66,15 +65,16 @@
         <section class="page-section bg-primary" id="about">
             <div class="container px-4 px-md-5">
                 <div class="row">
-                    <div class="col my-auto">
+                    <div class="col-sm-6 my-auto">
                         <h2 style="margin-bottom: 2rem;">ABOUT ME</h2>
                         <p class="text-white-75 mb-4">Sono un regista e un tecnico del montaggio freelance laureato in NABA (Nuova Accademia di Belle Arti) di Milano in Media Design e Arti Multimediali, indirizzo Filmmaking. Mi occupo quotidianamente della realizzazione di shooting e spot televisivi/social a 360°, dalla progettazione fino alla post produzione.<br><br>
                         Sono attualmente situato a Milano, ma posso operare su tutto il territorio nazionale gestendo il servizio a distanza o in traferta.</p>
                     </div>
-                    <div class="col d-flex justify-content-center">
-                        <img src="https://fra.staycreative.it/wp-content/uploads/2021/10/Immagine1.png" alt="" style="width: 400px;">
+                    <div class="col-sm-6 other my-auto px-1 pt-5 px-md-5 pt-md-0">
+                        <img src="https://fra.staycreative.it/wp-content/uploads/2021/10/Immagine1.png" class="img-fluid" alt="">
                     </div>
                 </div>
+
             </div>
         </section>
 
@@ -90,8 +90,8 @@
                     <h2 style="margin-bottom: 2rem;">SERVIZI</h2>
                     <p style="margin-bottom: 2rem;">Anni di lavoro e collaborazioni mi hanno permesso di costruire attorno a me una rete di professionisti del settore, con i quali collaboro strettamente, che mi garantiscono di poter fornire ai clienti la più vasta gamma di servizi tra cui:</p>
                 </div>
-                <div class="row">
-                    <div class="col my-auto">
+                <div class="row pt-3">
+                    <div class="col-sm-6 py-0">
                         <ul>
                             <li><span>Realizzazione di spot pubblicitari</span></li>
                           <li><span>Video per profili aziendali</span></li>
@@ -103,7 +103,7 @@
                           </ul>
                     </div>
 
-                    <div class="col my-auto">
+                    <div class="col-sm-6 other py-0">
                         <ul>
                           <li><span>Video musicali</span></li>
                           <li><span>Video Interviste</span></li>
@@ -192,7 +192,7 @@
         </div>
 
         <!-- Contact-->
-        <section class="page-section" id="contact" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(https://fra.staycreative.it/wp-content/uploads/2021/11/img1.jpg); background-attachment: fixed; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;">
+        <section class="page-section" id="contact" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(/assets/img/img1.jpg); background-attachment: fixed; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;">
 
 
             <div class="container px-4 px-lg-5">
@@ -260,14 +260,14 @@
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-6 mt-5">
+                    <div class="col-lg-6 mt-0">
 
                         <div class="row gx-4 gx-lg-5 justify-content-center">
-                            <div class="col-lg-4 text-center mb-lg-0">
+                            <div class="col-lg-4 text-center mb-lg-0 pt-5">
                                 <i class="bi-phone fs-1 text-white"></i>
                                 <div class="text-white">+39 123 456 7890</div>
                             </div>
-                            <div class="col-lg-4 text-center mb-lg-0">
+                            <div class="col-lg-4 text-center mb-lg-0 pt-5">
                                 <i class="bi-envelope-open fs-1 text-white"></i>
                                 <div class="text-white">email@gmail.com</div>
                             </div>
